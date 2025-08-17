@@ -1,4 +1,6 @@
 "use client";
+export const dynamic = 'force-dynamic';
+
 import { useMemo, useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import JobCard from "@/components/JobCard";
